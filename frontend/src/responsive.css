@@ -1,0 +1,173 @@
+/* Large */
+body {
+  /* background-color: aqua; */
+}
+@media (min-width: 1930px) {
+  .navHeader > .navButton {
+    padding: 20px;
+    font-size: 70px;
+  }
+}
+@media (min-width: 1700px) {
+  .navHeader > .navButton {
+    padding: 20px;
+    font-size: 70px;
+  }
+  header {
+    height: 1000px;
+    background-image: url("assets/img/headerLarge.jpg");
+  }
+  footer {
+    div {
+      img {
+        width: 30%;
+      }
+    }
+    div > ul {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 1540px) {
+  .about {
+    
+    div {
+      width: 80%;
+    }
+    img {
+      width: 60%;
+    }
+  }
+  .ourBand > .BandContainer > .boxBand {
+    /* width: 100px; */
+    font-size: 20px;
+    padding: 40px;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    button {
+      font-size: 20px;
+    }
+  }
+   footer{
+        h1{
+            font-size: 20px;
+            
+        }
+        div{
+            width: 80%;
+        }
+         gap: 100px;
+         div{
+            img{
+            width: 100%;
+         }
+        h1{
+            width: 100%;
+        }}
+         
+         
+    }
+
+}
+
+@media (max-width: 1300px) {
+  .about {
+    flex-direction: column;
+    div {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media(max-width:1000px)
+{
+    header{
+        padding: 50px;
+        h1{
+            font-size: 150px;
+            
+        }
+        background-position: center;
+        background-size: cover; 
+        /* background-image: url("./assets/img/headerSmall.jpg"); */
+    }
+    footer{
+        h1{
+            font-size: 20px;
+            
+        }
+        div{
+            width: 80%;
+        }
+         gap: 100px;
+    }
+}
+@media(max-width:800px){
+.thankContainer{
+    position: fixed;
+    visibility: hidden;
+}
+}
+@media(max-width:718px){
+footer>div{
+    
+    max-width:50% ;
+}
+.fullAboutUs{
+    .HeroSection{
+        flex-direction: column;
+    }
+
+}
+}
+@media(max-width:640px)
+{
+    .fullAboutUs{
+        .about-grid{
+            article {
+      flex-basis: 100%;
+    }
+
+        }
+        .experience-section{
+            flex-direction: column;
+        }
+    }
+    .about{
+        padding: 20px;
+    }
+    
+    header{
+        padding: 10px;
+        
+        h1{
+            font-size: 50px;
+        }
+    }
+    footer{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        gap:1px;
+        height: auto;
+        align-items: center;
+         
+        div{
+            width:100%;
+        }
+    }
+    .navHeader > .navButton {
+    padding: 20px;
+    font-size: 15px;
+  }
+}
+
+
+/* Big About Section */
+
